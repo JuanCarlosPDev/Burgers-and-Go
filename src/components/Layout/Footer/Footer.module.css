@@ -1,0 +1,78 @@
+/* Estilos para el pie de página */
+.footer {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  padding: 25px;
+}
+
+.footer h4 {
+  font-size: 1rem;
+  margin: 12px 0;
+}
+
+.footer p {
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color: var(--white-color);
+}
+
+.footer img {
+  margin: 5px 15px 5px 0;
+}
+
+/* Estilos para acomodar las columnas */
+.topSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+/* Estilos para las redes sociales */
+.socialLink {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.socialLink i {
+  color: var(--white-color);
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid var(--white-color);
+  padding: 5px 9px;
+
+  border-radius: 4px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.socialLink i:hover {
+  border-color: var(--red-color);
+  color: var(--red-color);
+}
+
+/* Estilos para las tiendas de aplicación */
+.app img {
+  border-radius: 6px;
+}
+
+/* Estilos para la sección final del footer */
+.bottomSection {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid var(--white-color);
+  text-align: center;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  /* Laptop */
+  .topSection {
+    gap: 20px;
+  }
+}

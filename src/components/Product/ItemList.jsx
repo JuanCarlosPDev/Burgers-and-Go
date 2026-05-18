@@ -1,0 +1,11 @@
+import { Item } from "./Item";
+
+export function ItemList({ productos }) {
+  return (
+    <>
+      {productos.map((producto) => (
+        <Item key={producto.id} {...producto} />
+      ))}
+    </>
+  );
+}

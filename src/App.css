@@ -1,0 +1,36 @@
+/* Estilos que se repiten en varias partes del proyecto */
+.section-m1 {
+  padding: 60px 20px;
+}
+
+.section-m2 {
+  padding: 60px 20px 0;
+}
+
+/* Limea para el detalle del producto y para la sección nosotros */
+.line {
+  margin-top: 6px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 4px;
+  background: var(--red-color);
+}
+
+/* Estilos para los mensajes de error y precaución */
+.error {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #d9534f;
+
+  padding: 250px 20px;
+}
+
+.warning {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ff9800;
+
+  padding: 250px 20px;
+}

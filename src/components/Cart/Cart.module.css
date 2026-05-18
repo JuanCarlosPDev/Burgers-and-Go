@@ -1,0 +1,64 @@
+/* Estilos para el mensaje de carrito vacio */
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.emptyCart i {
+  color: var(--red-color);
+  font-size: 2.125rem;
+}
+
+.emptyCart h1 {
+  font-size: 1.5rem;
+}
+
+.emptyCart p {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+/* Estilos para el botón que agrega productos las carrito */
+.addBtn {
+  background-color: var(--green-color);
+  color: var(--white-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addBtn:hover {
+  background-color: var(--white-color);
+  color: var(--green-color);
+}
+
+.addBtn {
+  font-size: 1rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  /* Laptop */
+  .addBtn {
+    font-size: 1rem;
+  }
+
+  .emptyCart i {
+    font-size: 3.125rem;
+  }
+
+  .emptyCart h1 {
+    font-size: 2.5rem;
+  }
+
+  .emptyCart p {
+    font-size: 1.125rem;
+  }
+}

@@ -1,0 +1,138 @@
+/* Estilos para el encabezado */
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  padding: 16px 15px;
+  background-color: var(--white-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+/* Colores para el logo */
+.green {
+  color: var(--green-color);
+}
+
+.red {
+  color: var(--red-color);
+}
+
+/* Estilos para el menú de navegación */
+.navbar {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: var(--white-color);
+  padding: 10px 0;
+  z-index: 999;
+}
+
+.navbar a {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: center;
+
+  /* animación */
+  transition: color 0.3s ease;
+  position: relative;
+  padding: 15px 0;
+}
+
+.navbar a:hover {
+  color: var(--green-color);
+}
+
+.active {
+  display: flex;
+}
+
+/* Botón menú para modo celular */
+.hamburger {
+  display: block;
+  font-size: 1.875rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* animación */
+  transition: color 0.3s ease;
+}
+
+.hamburger:hover {
+  color: var(--green-color);
+}
+
+/* Media Queries */
+@media (min-width: 460px) {
+  /* Tablets */
+  .header {
+    padding: 16px 30px;
+  }
+
+  .header h1 {
+    font-size: 1.75rem;
+  }
+
+  .hamburger {
+    font-size: 2.188rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Laptop */
+  .header {
+    padding: 16px 40px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    display: flex;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    border-top: none;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .navbar a {
+    padding: 2px 0;
+  }
+
+  .navbar a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--green-color);
+    transition: width 0.3s ease;
+    padding: 1px 0;
+  }
+
+  .navbar a:hover::after {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}

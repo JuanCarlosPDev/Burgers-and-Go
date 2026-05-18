@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "nombre": "Hamburguesa de Pollo",
+    "descripcion": "Hunde tus dientes en la perfección atemporal de nuestra hamburguesa de pollo, una experiencia que nunca pasa de moda.",
+    "imagen": "/images/burguers/burguer1.jpg",
+    "precio": 11000,
+
+    "ingredientes": [
+      "Pollo crispy",
+      "Queso cheddar",
+      "Lechuga fresca",
+      "Tomate",
+      "Mayonesa especial"
+    ],
+
+    "peso": "350g",
+    "pan": "Pan brioche",
+    "acompanamiento": "Papas fritas clásicas",
+    "bebida": "Coca-Cola 500ml",
+    "categoria": "Chicken",
+    "masVendida": false
+  },
+  {
+    "id": 2,
+    "nombre": "Hamburguesa Veggie",
+    "descripcion": "Disfruta los vibrantes sabores de nuestra hamburguesa veggie, una celebración de frescura y bondad.",
+    "imagen": "/images/burguers/burguer2.jpg",
+    "precio": 12900,
+
+    "ingredientes": [
+      "Medallón vegetal",
+      "Queso de tofu",
+      "Lechuga",
+      "Tomate",
+      "Cebolla morada",
+      "Salsa veggie"
+    ],
+
+    "peso": "320g",
+    "pan": "Pan integral",
+    "acompanamiento": "Papas rústicas",
+    "bebida": "Agua Mineral 500ml",
+    "categoria": "Veggie",
+    "masVendida": false
+  },
+  {
+    "id": 3,
+    "nombre": "Hamburguesa BBQ",
+    "descripcion": "Deléitate con una sinfonía de sabores ahumados y salados con nuestra Hamburguesa BBQ, a la parrilla y cubierta con tocino crujiente.",
+    "imagen": "/images/burguers/burguer3.jpg",
+    "precio": 13600,
+
+    "ingredientes": [
+      "Carne 150g",
+      "Queso cheddar",
+      "Bacon crispy",
+      "Cebolla caramelizada",
+      "Salsa BBQ"
+    ],
+
+    "peso": "420g",
+    "pan": "Pan brioche artesanal",
+    "acompanamiento": "Papas fritas rústicas",
+    "bebida": "Coca-Cola 500ml",
+    "categoria": "Premium",
+    "masVendida": true
+  },
+  {
+    "id": 4,
+    "nombre": "Hamburguesa Doble Carne y Queso",
+    "descripcion": "El doble de sabor, el doble de placer. Dos medallones de carne jugosa, fundidos con doble capa de queso cheddar.",
+    "imagen": "/images/burguers/burguer4.jpg",
+    "precio": 14875,
+
+    "ingredientes": [
+      "Doble carne 150g",
+      "Doble cheddar",
+      "Pepinillos",
+      "Ketchup",
+      "Mostaza"
+    ],
+
+    "peso": "500g",
+    "pan": "Pan de papa",
+    "acompanamiento": "Papas fritas grandes",
+    "bebida": "Pepsi 500ml",
+    "categoria": "Smash",
+    "masVendida": true
+  },
+  {
+    "id": 5,
+    "nombre": "Hamburguesa con Huevo Frito",
+    "descripcion": "Una explosión de sabor. Nuestra clásica hamburguesa de carne, coronada con un huevo frito perfecto y yema escurridiza.",
+    "imagen": "/images/burguers/burguer5.jpg",
+    "precio": 13500,
+
+    "ingredientes": [
+      "Carne 150g",
+      "Huevo frito",
+      "Queso cheddar",
+      "Lechuga",
+      "Tomate"
+    ],
+
+    "peso": "430g",
+    "pan": "Pan brioche",
+    "acompanamiento": "Papas crocantes",
+    "bebida": "Fanta 500ml",
+    "categoria": "Classic",
+    "masVendida": false
+  },
+  {
+    "id": 6,
+    "nombre": "Hamburguesa Clásica",
+    "descripcion": "La simplicidad perfecta. Carne de res, lechuga fresca, cebolla crujiente y queso derretido en un pan suave.",
+    "imagen": "/images/burguers/burguer6.jpg",
+    "precio": 10000,
+
+    "ingredientes": [
+      "Carne de res",
+      "Queso cheddar",
+      "Lechuga",
+      "Cebolla",
+      "Ketchup"
+    ],
+
+    "peso": "300g",
+    "pan": "Pan clásico",
+    "acompanamiento": "Papas fritas",
+    "bebida": "7Up 500ml",
+    "categoria": "Classic",
+    "masVendida": true
+  }
+]
